@@ -5,27 +5,28 @@ class PowerUp {
             y: positionY
         }
         this.type = type;
+        this.image = new Image();
         switch (type) {
             case 1:
-                this.image = document.getElementById("plusTwo");
+                this.image.src = "images/two.png";
                 break;
             case 2:
-                this.image = document.getElementById("gun");
+                this.image.src = "images/gun.png";
                 break;
             case 3:
-                this.image = document.getElementById("incSize");
+                this.image.src = "images/increaseSize.png";
                 break;
             case 4:
-                this.image = document.getElementById("decSize");
+                this.image.src = "images/decreaseSize.png";
                 break;
             case 5:
-                this.image = document.getElementById("redBall");
+                this.image.src = "images/red.png";
                 break;
             case 6:
-                this.image = document.getElementById("greenBall");
+                this.image.src = "images/green.png";
                 break;
             case 7:
-                this.image = document.getElementById("magnet");
+                this.image.src = "images/magnet.png";
                 break;
         }
         this.time = 0;

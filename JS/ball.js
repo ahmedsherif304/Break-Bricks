@@ -9,12 +9,13 @@ class Ball {
             x: positionX,
             y: positionY
         };
-        this.Image = document.getElementById("White-Ball");
+        this.image = new Image();
+        this.image.src = "images/whiteball.png";
         this.state = state;
     }
 
     draw(ctx) {
-        ctx.drawImage(this.Image, this.position.x, this.position.y, ballSize, ballSize);
+        ctx.drawImage(this.image, this.position.x, this.position.y, ballSize, ballSize);
     }
 
     update(paddle) {
