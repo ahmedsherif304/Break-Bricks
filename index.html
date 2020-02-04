@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        #GameScreen {
+            border: 2px solid black;
+        }
+        
+        img {
+            display: none;
+        }
+    </style>
+</head>
+
+
+<body>
+    <img src="images/whiteball.png" id="White-Ball">
+    <img src="images/red.png" id="redBall">
+    <img src="images/green.png" id="greenBall">
+    <img src="images/increaseSize.png" id="incSize">
+    <img src="images/decreaseSize.png" id="decSize">
+    <img src="images/two.png" id="plusTwo">
+    <img src="images/magnet.png" id="magnet">
+    <img src="images/gun.png" id="gun">
+    <div>Score: <span id="ScoreSpan"></span></div>
+    <div>Level: <span id="LevelSpan"></span></div>
+    <div>Lives: <span id="LivesSpan"></span></div>
+    <canvas id="GameScreen" width="800" height="500"></canvas>
+    <script src="JS/shot.js"></script>
+    <script src="JS/powerUp.js"></script>
+    <script src="JS/brick.js"></script>
+    <script src="JS/paddle.js"></script>
+    <script src="JS/ball.js"></script>
+    <script src="JS/input.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
