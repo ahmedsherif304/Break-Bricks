@@ -1,7 +1,7 @@
 # Break-Bricks
 break bricks classic game made by javascript
 
-#screenShots
+##screenShots
 
 ![pause](https://user-images.githubusercontent.com/40776441/73707333-02c30d00-4704-11ea-9a8a-59f26f22fc22.jpg)
 ![photo1](https://user-images.githubusercontent.com/40776441/73707334-02c30d00-4704-11ea-8124-acb503e3c376.jpg)
